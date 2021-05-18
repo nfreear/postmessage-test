@@ -1,0 +1,32 @@
+<!doctype html> <title> Host page </title>
+
+<style>
+html { box-sizing: border-box; } /* https://sunnysingh.io/blog/box-model-reset */
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+body { font: .9rem/1.7 sans-serif; margin: 1rem auto; max-width: 38rem; padding: 0 .2rem; }
+
+nav,
+iframe,
+pre { border: .2rem solid #aaa; margin: 1rem 0; min-height: 8rem; padding: .5rem; width: 100%; }
+
+nav { font-size: 1rem; min-height: 0; }
+q { background: yellow; }
+</style>
+
+
+<h1> Host page </h1>
+
+<nav>
+  <a href="?">Complete</a> | <a href="?incomplete=1">Incomplete</a> | <a href="?error=2">Error</a>
+</nav>
+
+<iframe src="#!_via_javascript">[ embed ]</iframe>
+
+<pre id="log" role="log"></pre>
+
+
+<script src="lib/host-app.js" type="module"></script>

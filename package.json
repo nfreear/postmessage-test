@@ -1,0 +1,10 @@
+{
+  "published": false,
+  "name": "@nfreear/postmessage-test",
+
+  "scripts": {
+    "start:embed": "cd public && php -S localhost:8001",
+    "start:host":  "cd public && php -S localhost:8000",
+    "start:rogue": "cd public && php -S localhost:8009"
+  }
+}
